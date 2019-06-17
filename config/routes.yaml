@@ -1,0 +1,35 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+topup:
+    path: /recharge
+    controller: App\Controller\DefaultController::topup
+
+help:
+    path: /help
+    controller: App\Controller\DefaultController::help
+
+join:
+    path: /join
+    controller: App\Controller\DefaultController::join
+
+connect:
+    path: /connect
+    controller: App\Controller\DefaultController::connect
+
+about:
+    path: /about
+    controller: App\Controller\DefaultController::about
+
+contact:
+    path: /contact-us
+    controller: App\Controller\DefaultController::contact
+
+terms:
+    path: /terms-of-use
+    controller: App\Controller\DefaultController::terms
+
+privacy_policy:
+    path: /privacy-policy
+    controller: App\Controller\DefaultController::privacy_policy
